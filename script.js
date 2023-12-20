@@ -1,10 +1,21 @@
 function translateText() {
     var text = document.getElementById('textToTranslate').value;
+    var languageChoice = document.getElementById('languageChoice').value;
+    var target_language, source_language;
+
+    if (languageChoice === "es-en") {
+        source_language = "es";
+        target_language = "en";
+    } else if (languageChoice === "en-es") {
+        source_language = "en";
+        target_language = "es";
+    }
+
     var url = "https://text-translator2.p.rapidapi.com/translate";
     var data = {
         text: text,
-        target_language: "en", // idioma al que se traducirá (inglés)
-        source_language: "es" // idioma original (español)
+        target_language: target_language,
+        source_language: source_language
     };
 
     fetch(url, {
@@ -18,8 +29,6 @@ function translateText() {
     })
     .then(response => response.json())
     .then(data => {
-        console.log(data); // Inspeccionar la respuesta
-        // Accede al texto traducido de la respuesta y actualiza el elemento div
         if (data.status === "success" && data.data.translatedText) {
             document.getElementById('translationResult').innerText = data.data.translatedText;
         } else {

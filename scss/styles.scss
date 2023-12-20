@@ -15,11 +15,25 @@ body {
     margin-top: 2.5rem;
     gap: 2rem;
 
-    h1 {
-        margin: 2rem;
-        font-size: 2.5rem;
-        text-align: center;
+    div.header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 32px;
+            width: 32px;
+
+        }
+
+        h1 {
+            margin: 0 1rem;
+            font-size: 2.5rem;
+            text-align: center;
+        }
     }
+
+
 
     button {
         width: 100px;

@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traductor de Texto</title>
+    <title>Traductor</title>
     <link rel="stylesheet" href="/scss/styles.css">
     <link rel="shortcut icon" href="/translate.ico" type="image/x-icon">
 </head>
-<body>
-    <h1>Traductor de Texto</h1>
-    <textarea id="textToTranslate" placeholder="Introduce texto aquí"></textarea>
-    <button onclick="translateText()">TRADUCIR</button>
-    <p>&#8615 RESULTADO &#8615</p>
-    <div id="translationResult"></div>
 
+<body>
+    <div class="header">
+        <img src="/img/icons8-british-flag-32.png">
+        <h1>Traductor</h1>
+        <img src="/img/icons8-spain-flag-32.png">
+    </div>
+    <p>ESP-ENG / ENG-ESP</p>
+    <select id="languageChoice">
+        <option value="es-en">Español a Inglés</option>
+        <option value="en-es">Inglés a Español</option>
+    </select>
+    <textarea id="textToTranslate" placeholder="Introduce el texto aquí..."></textarea>
+    <button onclick="translateText()">Traducir</button>
+    <div id="translationResult"></div>
     <script src="script.js"></script>
 </body>
+
 </html>
