@@ -2,9 +2,15 @@
 Text Translator Project 🌐
 
 
+
+
 Overview 📝
 
 Welcome to the Text Translator project, a user-friendly web application designed for seamless translation between Spanish and English. This tool bridges language barriers, enabling effective communication and understanding for a wide range of users, from students to professionals.
+
+
+
+
 
 Features ✨
 
@@ -13,6 +19,8 @@ Character Limit: Supports translations of texts up to 15,000 characters.
 User-Friendly Interface: Simple, intuitive design for easy translation.
 Real-Time Results: Instant translation for efficient language conversion.
 Bootstrap Integration: Sleek, responsive design for a pleasant user experience.
+
+
 
 
 Getting Started 🚀
@@ -24,10 +32,15 @@ Enter the text in the designated textarea.
 Click the 'Translate' button to view the translated text.
 
 
+
+
 Requirements 🛠️
 
 Modern web browser (Chrome, Firefox, Safari, Edge).
 Active internet connection for API communication.
+
+
+
 
 
 How It Works 🧩
@@ -36,6 +49,8 @@ User Input: Enter text in the designated area.
 Language Selection: Choose the translation direction using a toggle switch.
 Translation Request: Click 'Translate' to send a request to a translation API.
 Display Results: Translated text is displayed in the interface.
+
+
 
 
 Contributions 👥
