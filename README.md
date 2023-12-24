@@ -1,6 +1,10 @@
 Text Translator Project 🌐
+
+
 Overview 📝
 Welcome to the Text Translator project, a user-friendly web application designed for seamless translation between Spanish and English. Catering to a wide range of users, from students to professionals, this tool is a bridge across language barriers, enabling effective communication and understanding.
+
+
 
 Features ✨
 Bilingual Translation: Effortlessly translates text between Spanish and English.
